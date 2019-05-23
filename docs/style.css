@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+            
+}
+body {
+    background-color:black;
+    color: steelblue;
+}
+#page-container {
+    position:relative;
+    background-color:black;
+    color: steelblue;
+    height: 102vh;
+    width: 60vw;
+    left: 20vw;
+    padding: 15px;
+    bottom: 20px;
+    padding-left: 20px;
+}
+
+h1 {
+    text-align: center;
+    float:top;
+    font-family: 'Oswald';
+    font-size: 3em;
+   
+
+}
+
+#main {
+   
+}
+
+.module {
+    width: auto;
+    padding: 5px;
+    padding-left: 10%;
+    padding-right: 20%;
+    color: #e5e5e5;
+
+}
+
+
+  .sidenav {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color:#191919; 
+  }
+  
+
+  .sidenav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: steelblue;
+    display: block;
+    padding: 25px;
+    padding-top: 75px;
+  }
+
+  .sidenav a:hover{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    display: block;
+    padding: 25px;
+    padding-top: 75px;
+  }
+  
+  li {
+    font-size: 18px;
+
+  }
+
+  li:hover {
+    font-size: 20px;
+    color: white;
+  }
