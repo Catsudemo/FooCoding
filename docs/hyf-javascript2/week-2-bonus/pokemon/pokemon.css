@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Abel');
 @import url('https://fonts.googleapis.com/css?family=Karla');
 body {
-  background-color: #2e2c2f;
+  background-image: url('pokeball-background.png');
   font-family: Karla;
   margin: 40px;
   color: #f4f4ed;
@@ -24,8 +24,25 @@ section {
   margin-right: auto;
   width: 85%;
   height: auto;
-  background-color: #2e2c2f;
+  background-color: wheat;
   text-align: center;
+}
+
+.oakText {
+  font-family: Abel;
+  color: #444;
+  font-size: 20px;
+  text-align: center;
+}
+
+#oakSide {
+  float: left;
+}
+
+#oakImage {
+  float: left;
+  min-height: 500px;
+  width: auto;
 }
 
 .wrapper {
@@ -36,37 +53,31 @@ section {
   font-size: 20px;
   display: grid;
   align-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  background-color: #2e2c2f;
+  background-color: wheat;
   color: #444;
 }
 
 .box {
-  background-color: #313638;
+  background-color: wheat;
   color: #c6c5b9;
   border-radius: 5px;
   font-size: 100%;
-  min-width: 200px;
-  min-height: 400px;
+  max-width: 400px;
+  min-height: 200px;
 }
 
 img {
   width: auto;
-  height: 500px;
+  height: 150px;
   padding: 10px;
   margin: 10px;
 }
 
-#quoteSpace {
-  padding: 20px;
-  font-family: Abel;
-  font-size: 25px;
-  font-style: italic;
-}
-
 #footer {
   font-size: 20px;
+  padding: 20px;
 }
 
 @media screen and (max-width: 600px) {
