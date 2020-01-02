@@ -1,0 +1,72 @@
+const booksInfo = {
+  memoirs_of_a_geisha: {
+    properties: {
+      title: 'Memoirs of a Geisha',
+      language: 'English',
+      author: 'Arthur Golden',
+    },
+  },
+  enma_the_immortal: {
+    properties: {
+      title: 'Enma the Immortal',
+      language: 'Japanese',
+      author: 'Fumi Nakamura',
+    },
+  },
+  confessions: {
+    properties: {
+      title: 'Confessions',
+      language: 'Japanese',
+      author: 'Kanae Minato',
+    },
+  },
+  coin_locker_babies: {
+    properties: {
+      title: 'Coin Locker Babies',
+      language: 'Japanese',
+      author: 'Ryu Murakami',
+    },
+  },
+  beauty_and_sadness: {
+    properties: {
+      title: 'Beauty and Sadness',
+      language: 'Japanese',
+      author: 'Yasunari Kawabata',
+    },
+  },
+  house_of_sleeping_beauties: {
+    properties: {
+      title: 'House of Sleeping Beauties',
+      language: 'Japanese',
+      author: 'Yasunari Kawabata',
+    },
+  },
+  empress: {
+    properties: {
+      title: 'Empress',
+      language: 'English',
+      author: 'Shan Sa',
+    },
+  },
+  the_next_continent: {
+    properties: {
+      title: 'The Next Continent',
+      language: 'English',
+      author: 'Issui Ogawa',
+    },
+  },
+  underground: {
+    properties: {
+      title: 'Underground',
+      language: 'Japanese',
+      author: 'Haruki Murakami',
+    },
+  },
+  after_dark: {
+    properties: {
+      title: 'After Dark',
+      language: 'Japanese',
+      author: 'Haruki Murakami',
+    },
+  },
+};
