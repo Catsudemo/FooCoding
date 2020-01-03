@@ -3,10 +3,10 @@
   color: white;
   text-align: center;
   padding: 5px;
+  width: 100vw;
 }
 
 #main-content {
-  width: 350px;
   float: left;
   padding: 10px;
 }
@@ -33,6 +33,7 @@
 
 .flex-wrapper {
   font-family: Abel;
+  width: 100vh;
   background-color: grey;
   text-align: left;
   padding-top: 25px;
@@ -45,24 +46,54 @@
   color: #444;
 }
 
-#contributorsDiv.IMG {
+IMG {
   padding: 20px;
   margin: 20px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+}
+
+#container {
+  background-color: black;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#repoContributors {
+  background-color: #2E2C2F;
+}
+
+#repoInfo {
+  background-color: #2E2C2F;
+}
+
+#repoInnerContainer {
+  background-color: whitesmoke;
+  border-color: #2E2C2F;
+  width: 50%;
+  border: 5px;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 20%;
+  margin-top: 50px;
 }
 
 #repo {
-  background-color: whitesmoke;
+  background-color: green;
   border-color: #2E2C2F;
-  width: 40%;
+  width: 20%;
   border: 5px;
   padding: 20px;
+  padding-left: 10%;
   margin: 20px;
 }
 
 #contribDiv {
   background-color: whitesmoke;
   border-color: #2E2C2F;
-  width: 40%;
+  width: 50%;
   border: 5px;
   padding: 20px;
   margin: 20px;
